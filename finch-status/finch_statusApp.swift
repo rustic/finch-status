@@ -9,8 +9,11 @@ import SwiftUI
 
 @main
 struct finch_statusApp: App {
+
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
-        WindowGroup {
+        Settings { // Dont forget to change this line to Settings
             ContentView()
         }
     }
