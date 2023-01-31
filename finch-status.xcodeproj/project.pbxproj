@@ -11,6 +11,8 @@
 		DD0542792985CCB200F81146 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0542782985CCB200F81146 /* ContentView.swift */; };
 		DD05427B2985CCB500F81146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD05427A2985CCB500F81146 /* Assets.xcassets */; };
 		DD05427E2985CCB500F81146 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD05427D2985CCB500F81146 /* Preview Assets.xcassets */; };
+		DD0542862985CD7C00F81146 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0542852985CD7C00F81146 /* AppDelegate.swift */; };
+		DD0542882985CFE400F81146 /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0542872985CFE400F81146 /* HelloView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		DD05427A2985CCB500F81146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD05427D2985CCB500F81146 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD05427F2985CCB500F81146 /* finch_status.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = finch_status.entitlements; sourceTree = "<group>"; };
+		DD0542852985CD7C00F81146 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD0542872985CFE400F81146 /* HelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				DD05427A2985CCB500F81146 /* Assets.xcassets */,
 				DD05427F2985CCB500F81146 /* finch_status.entitlements */,
 				DD05427C2985CCB500F81146 /* Preview Content */,
+				DD0542852985CD7C00F81146 /* AppDelegate.swift */,
+				DD0542872985CFE400F81146 /* HelloView.swift */,
 			);
 			path = "finch-status";
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0542862985CD7C00F81146 /* AppDelegate.swift in Sources */,
+				DD0542882985CFE400F81146 /* HelloView.swift in Sources */,
 				DD0542792985CCB200F81146 /* ContentView.swift in Sources */,
 				DD0542772985CCB200F81146 /* finch_statusApp.swift in Sources */,
 			);
@@ -274,6 +282,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +310,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
